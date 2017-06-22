@@ -5,6 +5,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://saleh.im"
   spec.author       = "SalehAlDhobaie"
   spec.platform     = :ios, "9.0"
+  spec.ios.deployment_target  = '8.0'
+
   spec.source       = { :git => "https://github.com/SalehAlDhobaie/Hyperpay-iOS.git" }
   spec.requires_arc = true
   spec.vendored_frameworks = "OPPWAMobile.framework"
